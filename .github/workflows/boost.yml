@@ -17,5 +17,5 @@ jobs:
           api_token: ${{ secrets.BOOST_API_TOKEN }}
           registry_module: boostsecurityio/native-scanner
         env:
-          BOOST_SCANNER_REGISTRY_REPO: https://github.com/boostsecurityio/scanner-testing#test-dev-native
+          BOOST_SCANNER_REGISTRY_REPO: https://github.com/boostsecurityio/scanner-testing
               
